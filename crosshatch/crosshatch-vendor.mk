@@ -41,7 +41,6 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt privileged apps
 PRODUCT_PACKAGES += \
-    AmbientSensePrebuilt \
     AppDirectedSMSService \
     CarrierServices \
     CarrierSetup \

@@ -238,17 +238,6 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := AmbientSensePrebuilt
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/priv-app/AmbientSensePrebuilt/AmbientSensePrebuilt.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := AppDirectedSMSService
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk
